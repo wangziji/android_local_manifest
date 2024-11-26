@@ -67,7 +67,7 @@
   <project path="packages/modules/Wifi" name="raspberry-vanilla/android_packages_modules_Wifi" remote="github" revision="android-14.0" />
 
   <!--MindTheGapps-->
-  <remote name="MindTheGapps" fetch="https://gitlab.com/MindTheGapps/" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="MindTheGapps" revision="40b7bab4cd0afd8fe38d6dfc7e71cc3ae12d0514" />  
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <project path="MindTheGapps/vendor_gapps_tv" name="vendor_gapps" remote="gitlab" revision="40b7bab4cd0afd8fe38d6dfc7e71cc3ae12d0514" />  
 
 </manifest>
