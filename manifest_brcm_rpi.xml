@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com/" />
+  <remote name="aosp" fetch="https://android.googlesource.com/" />
 
-  <!-- Prebuilt Kernal -->
+  <!-- ADB -->
+  <project path="system/core/adb" name="platform/system/adb" remote="aosp" revision="main" />
 
   <!-- Raspberry Pi -->
   <project path="device/brcm/rpi4" name="wangziji/android_device_brcm_rpi4" remote="github" revision="android-14.0" >
